@@ -1,0 +1,168 @@
+body {
+	 background-color: #fff !important;
+	 color: #000 !important;
+}
+ body.moove-darkmode {
+	 background-color: #090f1f !important;
+	 color: #fff !important;
+}
+ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .path-calendar .maincalendar .calendar-controls .current, .course-content .single-section .sectionname, .course-content .single-section .sectionname a, .course-content .section .sectionname, .course-content .section .sectionname a {
+	 color: #000 !important;
+}
+ body.moove-darkmode h1, body.moove-darkmode h2, body.moove-darkmode h3, body.moove-darkmode h4, body.moove-darkmode h5, body.moove-darkmode h6, body.moove-darkmode .h1, body.moove-darkmode .h2, body.moove-darkmode .h3, body.moove-darkmode .h4, body.moove-darkmode .h5, body.moove-darkmode .h6, body.moove-darkmode .path-calendar .maincalendar .calendar-controls .current, body.moove-darkmode .course-content .single-section .sectionname, body.moove-darkmode .course-content .single-section .sectionname a, body.moove-darkmode .course-content .section .sectionname, body.moove-darkmode .course-content .section .sectionname a {
+	 color: #fff !important;
+}
+ a:not(.btn) {
+	 color: #000 !important;
+}
+ body.moove-darkmode a:not(.btn) {
+	 color: #fff !important;
+}
+ .courseindex .courseindex-item.pageitem, .btn-primary, .btn-link, .dashboard-card .dashboard-card-img .course-category {
+	 background-color: #6368f2 !important;
+}
+ .courseindex .courseindex-item.pageitem *, .btn-primary *, .btn-link *, .dashboard-card .dashboard-card-img .course-category * {
+	 color: #fff !important;
+}
+ #page {
+	 background-color: #fff !important;
+}
+ body.moove-darkmode #page {
+	 background-color: #090f1f !important;
+}
+ .navbar, .secondary-navigation {
+	 background-color: #fff !important;
+	 border-bottom: 1px solid #cdd5e0 !important;
+	 box-shadow: none !important;
+	 filter: none !important;
+}
+ body.moove-darkmode .navbar, body.moove-darkmode .secondary-navigation {
+	 background-color: #090f1f !important;
+	 border-bottom: 1px solid #485465 !important;
+}
+ .navbar .primary-navigation .navigation .nav-link {
+	 color: #000 !important;
+}
+ body.moove-darkmode .navbar .primary-navigation .navigation .nav-link {
+	 color: #fff !important;
+}
+ .navbar .primary-navigation .navigation .nav-link.active {
+	 border-bottom: none !important;
+}
+ body.moove-darkmode .navbar .primary-navigation .navigation .nav-link:hover {
+	 background-color: #111628 !important;
+}
+ #region-main {
+	 background-color: transparent !important;
+}
+ body.moove-darkmode #region-main {
+	 background-color: transparent !important;
+}
+ div[role='main'] {
+	 background-color: #f8f9fc !important;
+	 border-radius: 0.75rem;
+}
+ body.moove-darkmode div[role='main'] {
+	 background-color: #111628 !important;
+}
+ .drawer {
+	 background-color: #fff !important;
+}
+ body.moove-darkmode .drawer {
+	 background-color: #090f1f !important;
+}
+ .icon, .fa {
+	 color: #000 !important;
+}
+ body.moove-darkmode .icon, body.moove-darkmode .fa {
+	 color: #fff !important;
+}
+ .card {
+	 background-color: #f8f9fc !important;
+	 border: 1px solid #cdd5e0;
+}
+ body.moove-darkmode .card {
+	 background-color: #111628 !important;
+	 border: 1px solid #485465;
+}
+ .activity {
+	 border-top: none !important;
+}
+ .activity-item {
+	 background-color: transparent !important;
+}
+ .pagelayout-frontpage .dashboard-card .course-contacts .contact p.role, .pagelayout-coursecategory .dashboard-card .course-contacts .contact p.role {
+	 color: #96a2b6;
+}
+ body.moove-darkmode .dashboard-card-deck .dashboard-card .dashboard-card-footer, body.moove-darkmode #region-main .section.main, body.moove-darkmode .course-content .single-section .sectionname, body.moove-darkmode .course-content .section .sectionname {
+	 background-color: transparent !important;
+}
+ #page-footer {
+	 background-color: #fff !important;
+	 border-top: 1px solid #cdd5e0;
+}
+ body.moove-darkmode #page-footer {
+	 background-color: #090f1f !important;
+	 border-top: 1px solid #485465;
+}
+ .form-control {
+	 background-color: transparent !important;
+}
+ .main-inner {
+	 background-color: transparent !important;
+}
+ body.moove-darkmode .maincalendar .calendarmonth .clickable:hover {
+	 background-color: #090f1f !important;
+}
+ body.moove-darkmode .dropdown-menu {
+	 background-color: #111628 !important;
+	 border: 1px solid #485465 !important;
+	 color: #f5f5f5;
+}
+ body.moove-darkmode .dropdown-menu .dropdown-toggle {
+	 color: #f5f5f5 !important;
+}
+ body.moove-darkmode .dropdown-menu .dropdown-item {
+	 color: #f5f5f5 !important;
+}
+ body.moove-darkmode .dropdown-menu .dropdown-item:hover {
+	 background-color: #0c1015;
+}
+ body.moove-darkmode .dropdown-menu .dropdown-divider {
+	 border-color: #485465 !important;
+}
+ .progress {
+	 background-color: #e1e8ef !important;
+}
+ body.moove-darkmode .progress {
+	 background-color: #212a3b !important;
+}
+ .progress-bar {
+	 background-color: #6368f2 !important;
+}
+ .secondary-navigation .navigation .nav-link {
+	 color: #000 !important;
+}
+ body.moove-darkmode .secondary-navigation .navigation .nav-link {
+	 color: #fff !important;
+}
+ .secondary-navigation .navigation .nav-link.active {
+	 background-color: #f8f9fc !important;
+	 border-bottom: none !important;
+}
+ body.moove-darkmode .secondary-navigation .navigation .nav-link.active {
+	 background-color: #111628 !important;
+}
+ .secondary-navigation .navigation .nav-link:hover {
+	 background-color: #f8f9fc !important;
+}
+ body.moove-darkmode .secondary-navigation .navigation .nav-link:hover {
+	 background-color: #111628 !important;
+}
+ .section-item {
+	 border: 1px solid #cdd5e0 !important;
+}
+ body.moove-darkmode .section-item {
+	 border: 1px solid #485465 !important;
+}
+ 

@@ -1,0 +1,262 @@
+$dark-page-bg: #090f1f;
+$white-page-bg: #ffffff;
+
+$dark-border-color: #485465;
+$white-border-color: #cdd5e0;
+
+$dark-card-color: #111628;
+$white-card-color: #f8f9fc;
+
+$dark-text: #000000;
+$white-text: #ffffff;
+$dimmed-text: #96a2b6;
+
+$link-color: #534edf;
+
+$dark-progress-bg: #212a3b;
+$white-progress-bg: #e1e8ef;
+
+$accent: #6368f2;
+
+$dark-dropdown-bg: #1e2836;
+$dark-dropdown-border: #485465;
+$dark-dropdown-text: #f5f5f5;
+
+$rounded-xl: 0.75rem;
+
+body {
+	background-color: $white-page-bg !important;
+	color: $dark-text !important;
+}
+
+body.moove-darkmode {
+	background-color: $dark-page-bg !important;
+	color: $white-text !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.path-calendar .maincalendar .calendar-controls .current,
+.course-content .single-section .sectionname,
+.course-content .single-section .sectionname a,
+.course-content .section .sectionname,
+.course-content .section .sectionname a {
+	color: $dark-text !important;
+
+	body.moove-darkmode & {
+		color: $white-text !important;
+	}
+}
+
+a:not(.btn) {
+	color: $dark-text !important;
+
+	body.moove-darkmode & {
+		color: $white-text !important;
+	}
+}
+
+.courseindex .courseindex-item.pageitem,
+.btn-primary,
+.btn-link,
+.dashboard-card .dashboard-card-img .course-category {
+	background-color: $accent !important;
+
+	* {
+		color: $white-text !important;
+	}
+}
+
+#page {
+	background-color: $white-page-bg !important;
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+	}
+}
+
+.navbar,
+.secondary-navigation {
+	background-color: $white-page-bg !important;
+	border-bottom: 1px solid $white-border-color !important;
+	box-shadow: none !important;
+	filter: none !important;
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+		border-bottom: 1px solid $dark-border-color !important;
+	}
+}
+
+.navbar .primary-navigation .navigation .nav-link {
+	color: $dark-text !important;
+
+	body.moove-darkmode & {
+		color: $white-text !important;
+	}
+
+	&.active {
+		border-bottom: none !important;
+	}
+
+	&:hover {
+		body.moove-darkmode & {
+			background-color: $dark-card-color !important;
+		}
+	}
+}
+
+#region-main {
+	background-color: transparent !important;
+	body.moove-darkmode & {
+		background-color: transparent !important;
+	}
+}
+
+div[role='main'] {
+	background-color: $white-card-color !important;
+	border-radius: $rounded-xl;
+	body.moove-darkmode & {
+		background-color: $dark-card-color !important;
+	}
+}
+
+.drawer {
+	background-color: $white-page-bg !important;
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+	}
+}
+
+.icon,
+.fa {
+	color: $dark-text !important;
+	body.moove-darkmode & {
+		color: $white-text !important;
+	}
+}
+
+.card {
+	background-color: $white-card-color !important;
+	border: 1px solid $white-border-color;
+	body.moove-darkmode & {
+		background-color: $dark-card-color !important;
+		border: 1px solid $dark-border-color;
+	}
+}
+
+.activity {
+	border-top: none !important;
+}
+
+.activity-item {
+	background-color: transparent !important;
+}
+
+.pagelayout-frontpage .dashboard-card .course-contacts .contact p.role,
+.pagelayout-coursecategory .dashboard-card .course-contacts .contact p.role {
+	color: $dimmed-text;
+}
+
+body.moove-darkmode .dashboard-card-deck .dashboard-card .dashboard-card-footer,
+body.moove-darkmode #region-main .section.main,
+body.moove-darkmode .course-content .single-section .sectionname,
+body.moove-darkmode .course-content .section .sectionname {
+	background-color: transparent !important;
+}
+
+#page-footer {
+	background-color: $white-page-bg !important;
+	border-top: 1px solid $white-border-color;
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+		border-top: 1px solid $dark-border-color;
+	}
+}
+
+.form-control {
+	background-color: transparent !important;
+}
+
+.main-inner {
+	background-color: transparent !important;
+}
+
+.maincalendar .calendarmonth .clickable:hover {
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+	}
+}
+
+body.moove-darkmode {
+	.dropdown-menu {
+		.dropdown-toggle {
+			color: $dark-dropdown-text !important;
+		}
+
+		background-color: $dark-card-color !important;
+		border: 1px solid $dark-border-color !important;
+		color: $dark-dropdown-text;
+
+		.dropdown-item {
+			color: $dark-dropdown-text !important;
+			&:hover {
+				background-color: darken($dark-dropdown-bg, 10%);
+			}
+		}
+
+		.dropdown-divider {
+			border-color: $dark-dropdown-border !important;
+		}
+	}
+}
+
+.progress {
+	background-color: $white-progress-bg !important;
+	body.moove-darkmode & {
+		background-color: $dark-progress-bg !important;
+	}
+}
+
+.progress-bar {
+	background-color: $accent !important;
+}
+
+.secondary-navigation .navigation .nav-link {
+	color: $dark-text !important;
+	body.moove-darkmode & {
+		color: $white-text !important;
+	}
+
+	&.active {
+		background-color: $white-card-color !important;
+
+		body.moove-darkmode & {
+			background-color: $dark-card-color !important;
+		}
+
+		border-bottom: none !important;
+	}
+
+	&:hover {
+		background-color: $white-card-color !important;
+		body.moove-darkmode & {
+			background-color: $dark-card-color !important;
+		}
+	}
+}
+
+.section-item {
+	border: 1px solid $white-border-color !important;
+	body.moove-darkmode & {
+		border: 1px solid $dark-border-color !important;
+	}
+}
