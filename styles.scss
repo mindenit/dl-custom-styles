@@ -313,7 +313,8 @@ body.moove-darkmode {
 		border-color: $dark-border-color !important;
 		color: $white-text !important;
 
-		option:hover {
+		option:hover,
+		option:active {
 			background-color: $accent !important;
 		}
 	}
@@ -375,7 +376,8 @@ table.quizreviewsummary td.cell {
 	}
 }
 
-.que .info, #quiz-timer-wrapper #quiz-timer {
+.que .info,
+#quiz-timer-wrapper #quiz-timer {
 	background-color: transparent !important;
 }
 
@@ -395,5 +397,23 @@ a {
 	color: $dark-text !important;
 	body.moove-darkmode & {
 		color: $white-text !important;
+	}
+}
+
+.path-grade-report-user *,
+.user-report-container * {
+	background-color: transparent !important;
+}
+
+.activity-header:not(:empty),
+.alert-info {
+	background-color: $white-card-color !important;
+	color: $dark-text !important;
+	border: 1px solid $white-border-color !important;
+
+	body.moove-darkmode & {
+		background-color: $dark-card-color !important;
+		color: $white-text !important;
+		border: 1px solid $dark-border-color !important;
 	}
 }
