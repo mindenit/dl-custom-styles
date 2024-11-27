@@ -1,4 +1,7 @@
-body {
+.bg-white {
+	 background-color: transparent !important;
+}
+ body {
 	 background-color: #fff !important;
 	 color: #000 !important;
 }
@@ -14,6 +17,12 @@ body {
 }
  a:not(.btn) {
 	 color: #000 !important;
+}
+ a:not(.btn):focus {
+	 background-color: transparent !important;
+	 border: none !important;
+	 outline: none !important;
+	 box-shadow: none !important;
 }
  body.moove-darkmode a:not(.btn) {
 	 color: #fff !important;
@@ -52,6 +61,17 @@ body {
  body.moove-darkmode .navbar .primary-navigation .navigation .nav-link:hover {
 	 background-color: #111628 !important;
 }
+ body.moove-darkmode .navbar .primary-navigation .navigation .nav-link .nav-link.active {
+	 background-color: #090f1f;
+}
+ .nav-tabs .nav-link.active {
+	 border-color: #cdd5e0 !important;
+	 background-color: #fff !important;
+}
+ body.moove-darkmode .nav-tabs .nav-link.active {
+	 border-color: #485465 !important;
+	 background-color: #090f1f !important;
+}
  #region-main {
 	 background-color: transparent !important;
 }
@@ -73,6 +93,9 @@ body {
 }
  .icon, .fa {
 	 color: #000 !important;
+}
+ .btn .icon, .btn .fa {
+	 color: #fff !important;
 }
  body.moove-darkmode .icon, body.moove-darkmode .fa {
 	 color: #fff !important;
@@ -126,10 +149,14 @@ body {
 	 color: #f5f5f5 !important;
 }
  body.moove-darkmode .dropdown-menu .dropdown-item:hover {
-	 background-color: #0c1015;
+	 background-color: #6368f2 !important;
 }
  body.moove-darkmode .dropdown-menu .dropdown-divider {
 	 border-color: #485465 !important;
+}
+ .dropdown-item:hover {
+	 background-color: #6368f2 !important;
+	 color: #fff !important;
 }
  .progress {
 	 background-color: #e1e8ef !important;
@@ -164,5 +191,79 @@ body {
 }
  body.moove-darkmode .section-item {
 	 border: 1px solid #485465 !important;
+}
+ #yui_3_18_1_1_1732695635294_20 {
+	 background-color: transparent !important;
+	 color: #000 !important;
+}
+ body.moove-darkmode #yui_3_18_1_1_1732695635294_20 {
+	 color: #fff !important;
+}
+ body.moove-darkmode .select, body.moove-darkmode .custom-select {
+	 background-color: #090f1f !important;
+	 border-color: #485465 !important;
+	 color: #fff !important;
+}
+ body.moove-darkmode .select option:hover, body.moove-darkmode .custom-select option:hover {
+	 background-color: #6368f2 !important;
+}
+ .maincalendar .calendarmonth td.today .day-number-circle {
+	 background-color: #6368f2 !important;
+}
+ .calendar_event_course, .modal-content {
+	 background-color: #fff !important;
+}
+ body.moove-darkmode .calendar_event_course, body.moove-darkmode .modal-content {
+	 background-color: #090f1f !important;
+}
+ .generaltable {
+	 color: #000 !important;
+	 background-color: transparent !important;
+}
+ body.moove-darkmode .generaltable {
+	 color: #fff !important;
+}
+ tr:nth-of-type(even) {
+	 background-color: transparent !important;
+}
+ .generaltable tbody tr:hover:hover {
+	 color: inherit !important;
+}
+ table.quizreviewsummary th.cell, table.quizreviewsummary td.cell {
+	 background-color: transparent !important;
+}
+ .moodle-dialogue-base .moodle-dialogue-wrap {
+	 border-color: #cdd5e0 !important;
+	 border-radius: 0.75rem !important;
+	 background-color: #fff !important;
+}
+ body.moove-darkmode .moodle-dialogue-base .moodle-dialogue-wrap {
+	 background-color: #090f1f !important;
+	 border-color: #485465 !important;
+}
+ .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd, .mform fieldset {
+	 border-color: #cdd5e0 !important;
+}
+ body.moove-darkmode .moodle-dialogue-base .moodle-dialogue-wrap .moodle-dialogue-hd, body.moove-darkmode .mform fieldset {
+	 border-color: #485465 !important;
+}
+ .que .info, #quiz-timer-wrapper #quiz-timer {
+	 background-color: transparent !important;
+}
+ .que .formulation {
+	 background-color: transparent !important;
+	 color: #000 !important;
+}
+ body.moove-darkmode .que .formulation {
+	 color: #fff !important;
+}
+ .path-mod-quiz #mod_quiz_navblock .qnbutton {
+	 background-color: transparent !important;
+}
+ a {
+	 color: #000 !important;
+}
+ body.moove-darkmode a {
+	 color: #fff !important;
 }
  
