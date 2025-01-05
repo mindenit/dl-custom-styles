@@ -31,6 +31,7 @@ $rounded-xl: 0.75rem;
 body {
 	background-color: $white-page-bg !important;
 	color: $dark-text !important;
+	accent-color: $accent;
 }
 
 body.moove-darkmode {
@@ -444,4 +445,65 @@ a {
 
 .block .block-cards span.categoryname{
 	color: inherit !important;	
+}
+// Notifications
+.popover-region-notifications .popover-region-container .popover-region-content-container .content-item-container, .navbar .popover-region-container, .popover-region-footer-container {
+	background-color: $white-card-color !important;
+	body.moove-darkmode & {
+		background-color: $dark-card-color !important;
+	}
+}
+
+// Mesasages
+.message-app, [data-region=right-hand-drawer].drawer .footer-container {
+	background-color: $white-card-color !important;
+	body.moove-darkmode & {
+		background-color: $dark-card-color !important;
+	}
+}
+
+.message-app .message.received {
+	background-color: $white-page-bg !important;
+	
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+		color: $white-text !important;
+	}
+}
+
+// Expand button
+.btn.btn-icon.icons-collapse-expand {
+	background-color: $white-page-bg !important;
+	
+	body.moove-darkmode & {
+		background-color: $dark-page-bg !important;
+	}
+}
+
+// Activity button
+.activity-item .activity-completion button.btn {
+	background-color: $accent !important;
+	color: white !important;
+	border: none !important;
+	outline: none !important;
+}
+
+// Another styles
+.page-link {
+	background-color: transparent !important;
+}
+
+// Borders
+.border {
+	border: 1px solid $white-border-color !important;
+	body.moove-darkmode & {
+		border: 1px solid $dark-border-color !important;
+	}
+}
+
+.border-right {
+	border-right: 1px solid $white-border-color !important;
+	body.moove-darkmode & {
+		border-right: 1px solid $dark-border-color !important;
+	}
 }
