@@ -1,0 +1,16 @@
+{
+  "name": "dl-custom-styles",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "convert": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "fs-extra": "^11.2.0",
+    "sass": "^1.83.1"
+  }
+}
